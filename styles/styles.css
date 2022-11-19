@@ -1,6 +1,99 @@
+:root {
+    --background-color-primary: #FFFFFF;
+    --background-color-secondary: #2F303A;
+    --background-color-other: #F5F4FA;
+    --text-color-primary: #757575;
+    --text-color-secondary: #212121;
+    --accent-color-primary: #2196F3;
+    --accent-color-secondary: #FFFFFF;
+    --accent-color-other: #000000;
+    --active-color-primary: #188CE8;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color-primary);
+    color: var(--text-color-primary);
+}
+/* header style */
+.logo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color-primary);
+}
+.logo-second-color {
+    color: var(--accent-color-other);
+}
+/* site-nav */
+.site-nav a {
+
+}
+.site-nav .link {
+    color:var(--text-color-secondary);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color-primary);
+}
+.contact-list {
+
+}
+.current {
+
+}
+.title {
+    color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.hero {
+        background-color: #2F303A;
+        color: #FFFFFF;
+}
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button-call {
+    color: var(--accent-color-secondary);
+    background-color: var(--accent-color-primary);
+    
+}
+.button-call:active {
+    background-color: var(--active-color-primary);
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.features {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+.section-text {
+
+}
 .list {
-        list-style: none;
-    }
-/* ul {
     list-style: none;
-} */
+}
+.link {
+    text-decoration: none;
+}
