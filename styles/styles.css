@@ -41,8 +41,22 @@ body {
 .site-nav .link:focus {
     color: var(--accent-color-primary);
 }
-.contact-list {
-
+.email {
+    color: var(--text-color-primary);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.email:hover, .email:focus {
+    color: var(--accent-color-primary);
+}
+.phone {
+    color: var(--text-color-primary);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .site-nav .current {
     color: var(--accent-color-primary);
@@ -117,7 +131,6 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
-
 .list {
     list-style: none;
 }
