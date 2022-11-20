@@ -11,7 +11,7 @@
     --accent-color-other: #000000;
 }
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
     background-color: var(--background-color-primary);
     color: var(--text-color-primary);
 }
@@ -56,26 +56,20 @@ body {
 .site-nav .link:focus {
     color: var(--accent-color-primary);
 }
-.email {
+.header-page .contacts {
     color: var(--text-color-primary);
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
 }
-.email:hover, .email:focus {
+.header-page .contacts:hover, .header-page .contacts:focus {
     color: var(--accent-color-primary);
-}
-.phone {
-    color: var(--text-color-primary);
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
 }
 .site-nav .current {
     color: var(--accent-color-primary);
 }
 /* footer style */
-.bottom {
+.footer-page {
     background-color: var(--background-color-secondary);
 }
 
@@ -90,22 +84,25 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
-
+.footer-page .contacts:hover, .footer-page .contacts:focus {
+    color: var(--accent-color-primary);
+}
 .address-list .transparency {
     color: var(--accent-color-secondary-transparency);
 }
 /* main style  */
-.hero {
+.section-hero {
         background-color: var(--background-color-secondary);
         color: var(--accent-color-secondary);
 }
-.hero-title {
+.title-hero {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
 }
 .button-call {
     color: var(--accent-color-secondary);
@@ -121,7 +118,7 @@ body {
 .button-call:active {
     background-color: var(--active-color-primary);
 }
-.section-title {
+.title-section {
     color: var(--text-color-secondary);
     font-weight: 700;
     font-size: 36px;
@@ -140,7 +137,7 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
-.team {
+.section-team {
     background-color: var(--background-color-other);
 }
 .team-list {
