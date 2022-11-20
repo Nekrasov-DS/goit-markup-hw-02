@@ -72,11 +72,9 @@ body {
 .footer-page {
     background-color: var(--background-color-secondary);
 }
-
 .logo-footer {
     color: var(--accent-color-secondary);
 }
-
 .address-list {
     color: var(--accent-color-secondary);
     font-style: normal;
