@@ -19,7 +19,6 @@ body {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
     letter-spacing: 0.03em;
     color: var(--accent-color-primary);
 }
@@ -33,7 +32,6 @@ body {
 .site-nav {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
     letter-spacing: 0.02em;
 }
 .site-nav .link {
@@ -47,7 +45,6 @@ body {
     color: var(--text-color-primary);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
     letter-spacing: 0.02em;
 }
 .email:hover, .email:focus {
@@ -57,7 +54,6 @@ body {
     color: var(--text-color-primary);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
     letter-spacing: 0.02em;
 }
 .site-nav .current {
@@ -70,7 +66,7 @@ body {
 .hero-title {
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 1.4;
     letter-spacing: 0.06em;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -80,7 +76,7 @@ body {
     background-color: var(--accent-color-primary);
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     display: flex;
     align-items: center;
     text-align: center;
@@ -93,7 +89,6 @@ body {
     color: var(--text-color-secondary);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -101,13 +96,12 @@ body {
     color: var(--text-color-secondary);
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .features-text {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .team {
@@ -120,13 +114,11 @@ body {
     color: var(--text-color-secondary);
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .team-text {
     font-size: 16px;
-    line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
 }
