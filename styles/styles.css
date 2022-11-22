@@ -88,7 +88,7 @@ body {
 .address-list .transparency {
     color: var(--accent-color-secondary-transparency);
 }
-/* main style  */
+/* studio style  */
 .section-hero {
         background-color: var(--background-color-secondary);
         color: var(--accent-color-secondary);
@@ -154,6 +154,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
+/* portfolio style*/
 .button-filter {
     color: var(--text-color-secondary);
     background-color:var(--background-color-other);
